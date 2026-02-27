@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&family=Cinzel+Decorative:wght@400;700;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Gothic Theme Palette */
+  --font-sans: 'Cinzel', serif;
+  --font-display: 'Cinzel', serif;
+
+  /* Hard Blacks and Whites */
+  --background: 0 0% 4%; /* #0a0a0a */
+  --foreground: 0 0% 96%; /* #f5f5f5 */
+  
+  --card: 0 0% 8%;
+  --card-foreground: 0 0% 96%;
+  
+  --popover: 0 0% 4%;
+  --popover-foreground: 0 0% 96%;
+  
+  /* Dark Red Accent */
+  --primary: 0 75% 25%; /* #660000 */
+  --primary-foreground: 0 0% 100%;
+  
+  --secondary: 0 0% 15%;
+  --secondary-foreground: 0 0% 96%;
+  
+  --muted: 0 0% 12%;
+  --muted-foreground: 0 0% 65%;
+  
+  --accent: 0 75% 25%; /* #660000 Dark Red */
+  --accent-foreground: 0 0% 100%;
+  
+  --destructive: 0 84% 60%;
+  --destructive-foreground: 0 0% 100%;
+
+  --border: 0 0% 25%;
+  --input: 0 0% 20%;
+  --ring: 0 75% 25%;
+
+  /* HARD EDGES ONLY - NO ROUNDED UI */
+  --radius: 0rem;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground antialiased selection:bg-accent selection:text-white;
+    font-family: 'Cinzel', serif;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Cinzel', serif;
+    @apply font-bold tracking-tighter uppercase;
+  }
+}
+
+@layer utilities {
+  .font-display {
+    font-family: 'Cinzel', serif;
+  }
+  .font-sans {
+    font-family: 'Cinzel', serif;
+  }
+  .font-gothic {
+    font-family: 'Cinzel Decorative', 'Cinzel', serif;
+  }
+  .font-cinzel {
+    font-family: 'Cinzel', serif;
+  }
+  .font-cinzel-decorative {
+    font-family: 'Cinzel Decorative', serif;
+  }
+  
+  /* Stamped shadow effect for Brutalist UI */
+  .shadow-stamped {
+    box-shadow: 6px 6px 0px 0px hsl(var(--accent));
+  }
+  .shadow-stamped-white {
+    box-shadow: 6px 6px 0px 0px hsl(var(--foreground));
+  }
+  .shadow-stamped-black {
+    box-shadow: 6px 6px 0px 0px hsl(var(--background));
+  }
+
+  .hover-stamped:hover {
+    transform: translate(-4px, -4px);
+    box-shadow: 8px 8px 0px 0px hsl(var(--accent));
+  }
+  
+  .active-stamped:active {
+    transform: translate(0px, 0px);
+    box-shadow: 0px 0px 0px 0px hsl(var(--accent));
+  }
+
+  .animate-marquee {
+    animation: marquee 25s linear infinite;
+  }
+  
+  .animate-slow-zoom {
+    animation: slowZoom 8s ease-in-out infinite;
+  }
+}
+
+@keyframes marquee {
+  0% { transform: translateX(0%); }
+  100% { transform: translateX(-50%); }
+}
+
+@keyframes slowZoom {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.1); }
+  100% { transform: scale(1); }
+}
+
+/* Gritty Grain Overlay */
+.grain-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  pointer-events: none;
+  opacity: 0.25;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+  mix-blend-mode: overlay;
+}

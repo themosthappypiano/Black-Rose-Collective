@@ -1,0 +1,358 @@
+Understood. You want to shift from **luxury-legacy elegance** to something more **raw, culture-rooted, skate/garage energy** — think Vans, Converse, underground Houston street vibe.
+
+Below is your **repositioned Lovable Master Build Prompt** rewritten for that direction.
+
+---
+
+# LOVABLE MASTER BUILD PROMPT — HIPSTER / STREET VERSION
+
+Project: All Star Ink Website
+
+---
+
+## ROLE
+
+You are building a bold, culture-driven, street-inspired tattoo studio website for **All Star Ink**, Houston.
+
+This is NOT polished luxury.
+This is NOT corporate.
+This is underground credibility.
+
+Visual inspiration:
+Vans.
+Converse.
+Independent skate brands.
+Garage print shop.
+Zine culture.
+Street posters layered on brick.
+
+Tone:
+Confident. Slightly gritty. Real. No corporate language.
+
+Core Tagline (LOCK):
+**Legacy Ink. No Compromise.**
+
+---
+
+# 1️⃣ GLOBAL FOUNDATION
+
+## Brand Positioning
+
+All Star Ink is a Houston Northside tattoo and piercing studio rooted in:
+
+• Real craft
+• Artist loyalty
+• Walk-in energy
+• Street culture
+• Clean work, not flashy marketing
+• Black & grey + bold color mastery
+
+This is where serious ink gets done.
+
+---
+
+# 2️⃣ APPLICATION STRUCTURE
+
+Pages:
+
+1. Home
+2. Work
+3. Artists
+4. Book
+5. FAQ
+6. Contact
+
+Sticky navigation but minimal.
+
+Top Left:
+Raw wordmark logo (distressed or stencil feel)
+
+Top Right:
+Home
+Work
+Artists
+FAQ
+Contact
+BOOK (solid button, slightly louder)
+
+---
+
+# 3️⃣ GLOBAL STYLE SYSTEM
+
+## Colors
+
+Primary:
+#000000 (Black)
+#FFFFFF (White)
+
+Secondary:
+#111111 (Near Black)
+#2A2A2A (Concrete Dark)
+
+Accent:
+Off-white / bone (#F1F1F1)
+Muted red allowed ONLY for micro accents (#8B1E1E) — very minimal
+
+No soft greys.
+No silver elegance.
+No gloss.
+
+---
+
+## Typography
+
+Headlines:
+Oswald or Bebas Neue
+ALL CAPS
+Tight tracking
+Bold and tall
+
+Body:
+Inter or Montserrat
+Keep clean but compact
+
+Optional accent:
+Handwritten brush style for very small tags only (like “Since 2010”)
+
+---
+
+# 4️⃣ VISUAL RULES
+
+• High contrast
+• Grain overlays
+• Subtle paper texture
+• Slightly imperfect spacing (intentionally human)
+• Hard edges — no rounded UI
+• Buttons feel stamped, not glossy
+• Divider lines look like thin print marks
+• Photography can include natural shop environment — not overly edited
+
+This should feel like a skate magazine, not a luxury brochure.
+
+---
+
+# HOME PAGE
+
+## HERO (Full Screen)
+
+Background:
+Black & white shop interior or close-up of machine in action.
+
+Headline:
+LEGACY INK. NO COMPROMISE.
+
+Subhead:
+Houston Northside tattoo & piercing.
+Built different.
+
+Primary Button:
+BOOK A SESSION
+
+Secondary small link:
+Walk-ins welcome.
+
+No soft copy.
+Short sentences.
+Punchy.
+
+---
+
+## SOCIAL PROOF STRIP
+
+“4.7 Stars • 215 Reviews • Houston”
+
+Pull quotes styled like block quotes:
+
+"I will never let anyone else tattoo me."
+"Vivid color. Great prices. Talented artists."
+
+Make it feel like printed testimonials on a wall.
+
+---
+
+## WORK PREVIEW
+
+Headline:
+REAL WORK. REAL SKIN.
+
+Grid layout.
+No rounded corners.
+No fancy hover glow — just slight opacity shift.
+
+Button:
+SEE THE WORK
+
+---
+
+## ARTISTS PREVIEW
+
+Headline:
+NO ROTATING ARTISTS. NO RENT-A-CHAIR.
+
+Short copy:
+Hector and Mark. That’s it.
+Loyal clients. Clean execution.
+
+Two bold blocks with gritty portrait shots.
+
+Button:
+MEET THE ARTISTS
+
+---
+
+## CTA BLOCK
+
+Full black section.
+
+Headline:
+READY TO GET MARKED?
+
+Button:
+BOOK NOW
+
+---
+
+# WORK PAGE
+
+Masonry grid.
+Filter tags styled like stamped labels:
+
+ALL
+PORTRAITS
+BLACK & GREY
+COLOR
+GEOMETRIC
+PIERCINGS
+
+Filtering must not reload page.
+
+Mid-page banner:
+YOUR SKIN. YOUR STORY.
+Button: BOOK
+
+---
+
+# ARTISTS PAGE
+
+Each artist gets a full-width section.
+
+Left:
+Raw portrait photo.
+
+Right:
+Name in big block caps.
+Short, direct bio.
+No fluff.
+
+CTA:
+BOOK WITH HECTOR
+BOOK WITH MARK
+
+---
+
+# BOOK PAGE
+
+Headline:
+START WITH THE IDEA.
+
+Short copy:
+Tell us what you want.
+Placement. Size. Style.
+We’ll take it from there.
+
+Form Fields:
+
+Name
+Phone
+Email
+Tattoo or Piercing
+Idea Description
+Size
+Placement
+Preferred Artist
+Upload Reference
+Preferred Date
+18+ Confirmation Checkbox
+
+Button:
+REQUEST CONSULT
+
+After submit:
+Confirmation message:
+We’ll reach out within 24 hours.
+
+No corporate auto email copy tone.
+
+---
+
+# FAQ
+
+Accordion.
+Black background.
+White text.
+
+Direct answers.
+Short paragraphs.
+No filler.
+
+---
+
+# CONTACT
+
+8695 Mesa Dr
+Houston, TX 77028
++1 713-631-5290
+
+Embedded map.
+
+Large button:
+BOOK A SESSION
+
+---
+
+# FOOTER
+
+Black background.
+Simple stacked links.
+Hours.
+Age policy.
+
+No decorative elements.
+
+---
+
+# FUNCTIONAL RULES
+
+• Sticky nav
+• Sticky BOOK button on scroll
+• No reload filtering
+• Form validation
+• Maintain street aesthetic
+• No glossy UI components
+• No luxury spacing — tighter rhythm
+
+---
+
+# FINAL FEEL
+
+This site should feel like:
+
+• A garage that does elite work
+• A skate brand with needles
+• Houston pride
+• Clean but raw
+• Culture first
+
+Not elegant.
+Not delicate.
+Not corporate.
+
+---
+
+If you want next, I can:
+
+• Push it even more into underground/zine culture
+• Or dial it halfway between legacy and street
+• Or create a Vans-style landing page version
+
+Tell me how far you want to lean into it.
