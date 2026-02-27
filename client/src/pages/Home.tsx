@@ -88,8 +88,8 @@ export default function Home() {
         
         <div className="absolute inset-0 bg-gradient-to-br from-black via-gray-900 to-black opacity-60"></div>
         
-        {/* Video on the right side - moved left and down */}
-        <div className="absolute right-24 top-16 h-3/4 w-1/3 lg:w-1/4 rounded-lg overflow-hidden border-2 border-accent">
+        {/* Video on the right side - smaller on mobile and moved right */}
+        <div className="absolute right-4 sm:right-24 top-16 h-2/5 w-2/5 sm:h-3/4 sm:w-1/3 lg:w-1/4 rounded-lg overflow-hidden border-2 border-accent">
           <video
             ref={videoRef}
             src="/tattoo-transition.mp4"
@@ -111,12 +111,12 @@ export default function Home() {
           <p className="font-sans font-bold text-xl md:text-3xl text-white max-w-2xl uppercase tracking-widest mb-6 border-y-2 border-white/30 py-4">
             EAST SIDE HOUSTON
           </p>
-          <div className="flex flex-col sm:flex-row gap-6 w-full sm:w-auto mb-6">
+          <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 w-full sm:w-auto mb-6">
             <Link href="/book">
-              <BrutalButton size="lg" className="w-full sm:w-auto">BOOK A SESSION</BrutalButton>
+              <BrutalButton size="sm" className="w-full sm:w-auto sm:text-2xl sm:px-10 sm:py-5">BOOK A SESSION</BrutalButton>
             </Link>
             <Link href="/work">
-              <BrutalButton variant="secondary" size="lg" className="w-full sm:w-auto">VIEW THE WORK</BrutalButton>
+              <BrutalButton variant="secondary" size="sm" className="w-full sm:w-auto sm:text-2xl sm:px-10 sm:py-5">VIEW THE WORK</BrutalButton>
             </Link>
           </div>
           <div className="text-white font-sans text-lg font-medium">
@@ -278,7 +278,7 @@ export default function Home() {
                 <p className="text-xl font-bold">
                   High-quality jewelry and professional piercing services in a clean, sterile environment.
                 </p>
-                <ul className="space-y-3">
+                <ul className="space-y-3 hidden sm:block">
                   <li className="flex items-center gap-3">
                     <span className="text-accent text-xl">•</span>
                     <span>Ear Piercing (All Types)</span>
